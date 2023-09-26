@@ -44,7 +44,7 @@ bool checkMinas(Tablero &t)
 
 void printTablero(Tablero &t)
 {
-   char *a = "___";
+   const char *a = "___";
    std::cout << "\n    ";
    for (int i = 0; i < t.col; i++)
    {
